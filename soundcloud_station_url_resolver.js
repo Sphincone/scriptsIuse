@@ -1,4 +1,4 @@
-var base_song_url = document.querySelector('link[rel="canonical"]').getAttribute('href').replace('stations/track/',''); // creator /r/opsoyo
+var base_song_url = document.querySelector('link[rel="canonical"]').getAttribute('href').replace('stations/track/','');
 var ytdl_client_id = '2t9loNQH90kzJcsFCODdigxfp325aq4z';
 var youtube_dl_cmd = ['youtube-dl'];
 // Import jQuery because lazy
